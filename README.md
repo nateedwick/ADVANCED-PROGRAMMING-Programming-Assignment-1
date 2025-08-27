@@ -1,4 +1,4 @@
-# ADVANCED PROGRAMMING: Programming Assignment 1
+# ADVANCED PROGRAMMING: Programming Assignment #1
 
 ## Project Overview  
 This project contains solutions to basic Python programming problems as part of **Advanced Programming Assignment 1**.  
@@ -32,7 +32,6 @@ The code can be run in any Python environment or IDE. For this project, **Jupyte
 - **Goal:** Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad and mad with their corresponding emoticons.
 - **Code:** Create a function called emotify( ) with one parameter called sentence. Inside the function, store a dictionary d that contains the words smile, grin, sad, and mad as keys, and their corresponding emoticons :), :D, :((, and >:( as values. Use the split( ) function to separate the sentence into individual words and save them in a list called words. Prepare an empty list new_words to store the modified words. Create a for loop to go through each word in words. In every iteration, convert the word into lowercase using the lower( ) function and check if it exists as a key in the dictionary d. If it matches, append its corresponding emoticon to new_words. If not, append the original word. After the loop finishes, use " ".join(new_words) to combine all elements of new_words into a single string, separating them with spaces. This returns the new sentence where the specific words have been replaced with their emoticons, while all other words retain their original case.
 
-
   ```python
   def emotify(sentence):
     d = {
@@ -65,6 +64,7 @@ The code can be run in any Python environment or IDE. For this project, **Jupyte
 ### 3. Unpacking List Problem
 - **Goal:** Unpack the list writeyourcodehere into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.
 - **Code:**  Create a list called lst that contains several numbers. To unpack it, assign the first element lst[0] to the variable first, all elements in between lst[1:-1] to the variable middle, and the last element lst[-1] to the variable last. The expression lst[0] directly accesses the first element in the list. The slice lst[1:-1] takes everything except the first and last elements, which makes up the middle part of the list. The expression lst[-1] accesses the last element using negative indexing.
+  
   ```python
     lst = [1, 2, 3, 4, 5, 6]
     
