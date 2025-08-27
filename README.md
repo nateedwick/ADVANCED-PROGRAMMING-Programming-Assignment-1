@@ -4,8 +4,7 @@ This repository contains my work for **Programming Assignment 1** in ADVANCED PR
 
 
 
-**1. ALPHABET SOUP PROBLEM
-**
+1. ALPHABET SOUP PROBLEM
 
 def alphabet_soup(word):
     letters = list(word)                      # turn the word into a list of letters
@@ -17,8 +16,7 @@ print(alphabet_soup("hacker"))
 
 
 
-**2. EMOTICON PROBLEM
-**
+2. EMOTICON PROBLEM
 
 def emotify(sentence):
     d = {
@@ -45,8 +43,8 @@ print(emotify("I am mad"))
 
 
 
-**3. UNPACKING LIST PROBLEM
-**
+3. UNPACKING LIST PROBLEM
+
 
 lst = [1, 2, 3, 4, 5, 6]
 
